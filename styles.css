@@ -129,8 +129,12 @@ a:link {
 a:visited {
 	color:  #339900;
 }
-a:hover, a:active {
+a:hover {
 	color: #339900;
+	text-decoration: underline;
+}
+a:active {
+	color: #000;
 	text-decoration: underline;
 }
 
@@ -165,10 +169,23 @@ a img {border-width: 0;}
 #sidebar a:visited {
 	color: #EBEBEB;
 }
+/*.navbar-nav>li.active>a,.navbar-nav>li.active>a:hover,.navbar-nav>li.active>a:focus {
+	background-color:#000;
+	color:#00abea;
+	border-radius:0px 0px 0 0 !Important;
+}*/
 
- #sidebar a:active {
-	color: #0078ac;
-	text-align: left;
+ .activepage {
+	color: #333 !important;
+	/*text-align: right;*/
+	font-size: 18px;
+	background-color: #000;
+}
+
+.sidenavbar>li.activepage>a{
+color: #000;
+text-align: left;
+letter-spacing: 1px;
 }
 
 /* For email form under development */

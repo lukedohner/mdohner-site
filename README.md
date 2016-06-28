@@ -16,3 +16,9 @@ changes:
 	/*font-weight: bold;*/
 	text-align:  left;
 }
+Added to Twitter link to push left at the Footer 
+styles.css
+.text-align-left{
+	text-align: left;
+}
+http://webdesignerwall.com/demo/responsive-menu/#
