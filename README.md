@@ -1,3 +1,5 @@
+python -m SimpleHTTPServer 8000
+
 # mdohner-site
 MDohner exhibition protfolio
 hello world
@@ -43,3 +45,34 @@ margin-top: 83px;
 
 #mainContent {
 padding-top: 93px;
+
+added:
+nav.css
+<link href="css/nav.css" rel="stylesheet" type="text/css" />
+Put css files in ccs directory
+
+<div id="outer-wrap">
+<div id="inner-wrap">
+///page content goes here
+</div>
+<!--/#inner-wrap-->
+</div>
+<!--/#outer-wrap-->
+
+#top {
+  z-index: 100;
+  /*position: relative;
+  color: #fff;
+  background: #333333;*/
+
+  background-color: #6A963B;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: #fff;
+  position: fixed;
+  height: auto;
+  width: 100%;
+}
+<script src="js/main.js"></script>
