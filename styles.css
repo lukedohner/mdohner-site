@@ -13,6 +13,9 @@
 	padding: 0;
 	overflow: hidden;
 	color: #6a963b;
+	position: fixed;
+    height: auto;
+    width: 100%;
 }
 
 #sidebar {
@@ -21,6 +24,9 @@
 	font-weight: normal;
 	font-size: 12px;
 	letter-spacing: 0.09em;
+    position: fixed;
+    height: auto;
+    margin-top: 83px;
 }
 
 /* This styles the editable part of the templatete */
@@ -28,7 +34,7 @@
 #mainContent {
 	background-color: #FFFFFF;
 	margin-left: 14em;
-	padding-top: 3px;
+	padding-top: 93px;
 	padding-right: 20px;
 	padding-bottom: 0;
 	padding-left: 1em;
