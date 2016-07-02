@@ -1,5 +1,5 @@
 python -m SimpleHTTPServer 8000
-
+www.lukedohner.com/clients/mdohner-site/index.html
 # mdohner-site
 MDohner exhibition protfolio
 hello world
@@ -76,3 +76,8 @@ Put css files in ccs directory
   width: 100%;
 }
 <script src="js/main.js"></script>
+
+Added img directory this has images for mobile nav
+
+<html class="no-js">
+<script src="js/main.js"></script> 

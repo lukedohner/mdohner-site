@@ -36,19 +36,19 @@
 	letter-spacing: 0.09em;
     position: fixed;
     height: auto;
-    margin-top: 83px;
+    margin-top: 57px;
 }
 
 /* This styles the editable part of the templatete */
 
 #mainContent {
 	background-color: #FFFFFF;
-	margin-left: 14em;
-	padding-top: 93px;
-	padding-right: 20px;
-	padding-bottom: 0;
-	padding-left: 1em;
-	text-align: left;
+    margin-left: 14em;
+    padding-top: 5em;
+    padding-right: 2em;
+    padding-bottom: 0;
+    padding-left: 1em;
+    text-align: left;
 }
 
 #footer p {
@@ -73,7 +73,7 @@
 
 body {
 	font-family: Verdana, "Trebuchet MS", sans-serif;
-	background-color: #666666;
+	background-color: #858c7e;;
 	color: #000000;
 	margin: 0;
 	padding: 0;
@@ -185,6 +185,37 @@ a img {border-width: 0;}
 #sidebar a:visited {
 	color: #EBEBEB;
 }
+
+/*//////////*/
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: left;
+}
+
+.sidebar a {
+	display: block;
+	padding: 10px 3px 9px 15px;
+	/*background-color: #6A963B;*/
+	color: #EBEBEB;
+	background-color: none;
+	/*border-top: 1px #EBEBEB solid;*/
+	text-decoration: none;
+}
+
+.sidebar a:hover {
+	background-color: #99E071;
+	color: #EBEBEB;
+	/*border-right: 3px #999999 solid;
+	border-bottom: 3px #999999 solid;
+	padding-bottom: 3px;*/
+}
+
+.sidebar a:visited {
+	color: #EBEBEB;
+}
+/*//////////*/
 /*.navbar-nav>li.active>a,.navbar-nav>li.active>a:hover,.navbar-nav>li.active>a:focus {
 	background-color:#000;
 	color:#00abea;
@@ -202,6 +233,9 @@ a img {border-width: 0;}
 color: #000;
 text-align: left;
 letter-spacing: 1px;
+}
+.nopadding {
+	padding:0 !important; 
 }
 
 /* For email form under development */
