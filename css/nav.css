@@ -213,7 +213,13 @@ ul, ol {
 h1, h2, h3, h4, h5, h6, p, ul, ol {
   margin: 0;
 }
-
+p {
+    margin-left: 1em;
+    margin-top: 1em;
+}
+h4 {
+    margin-left: 1em;
+}
 a {
   text-decoration: none;
 }
@@ -609,6 +615,9 @@ footer[role="contentinfo"] {
     white-space: normal;
     max-width: 172px;
 }
+/*.masthead {
+    margin-top: 5px;
+}*/
 /*addding here*/
   .csstransforms3d.csstransitions.js-ready #nav {
     left: 0;
