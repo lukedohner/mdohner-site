@@ -81,3 +81,15 @@ Added img directory this has images for mobile nav
 
 <html class="no-js">
 <script src="js/main.js"></script> 
+
+img{
+  width: 100%;
+    height: auto;
+    max-width: 900px;
+}
+
+h4 {
+    margin-left: 1em;
+    margin-top: 1em;
+
+}

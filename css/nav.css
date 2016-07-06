@@ -219,6 +219,8 @@ p {
 }
 h4 {
     margin-left: 1em;
+    margin-top: 1em;
+
 }
 a {
   text-decoration: none;
@@ -518,8 +520,10 @@ footer[role="contentinfo"] {
 }
 @media screen and (max-width: 45em) {
   #mainContent {
-     margin-left: 0em; 
-     padding-left: 0em;  
+    margin-left: 0em;
+    margin-right: 0em;
+    padding-left: 0em; 
+    padding-right: 1em;
 }
   #nav {
     position: absolute;
@@ -615,9 +619,8 @@ footer[role="contentinfo"] {
     white-space: normal;
     max-width: 172px;
 }
-/*.masthead {
-    margin-top: 5px;
-}*/
+
+
 /*addding here*/
   .csstransforms3d.csstransitions.js-ready #nav {
     left: 0;
