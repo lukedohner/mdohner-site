@@ -93,3 +93,7 @@ h4 {
     margin-top: 1em;
 
 }
+#footer  {
+padding: .5em;
+}
+http://www.lukedohner.com/clients/mdohner-site/index.html
