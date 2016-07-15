@@ -55,7 +55,9 @@ padding: .5em;
 }
 #footer p {
 	margin:  0;
-	padding: 10px 0;
+	padding-left: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 1.0em;
 	background-color: #DDDDDD;
 	text-align:  center;
 	font-size: .8em;
