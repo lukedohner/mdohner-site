@@ -355,7 +355,7 @@ body {
 
 #nav {
   z-index: 200;
-  position: relative;
+  position: fixed;
   overflow: hidden;
   /*width: 100%;*/
   color: #fff;
@@ -377,7 +377,7 @@ body {
   z-index: 2;
   position: relative;
   padding: 0.75em 1.25em;
-  background: #6A963B;
+  background: #79af3f;
 }
 #nav ul {
   *zoom: 1;
@@ -395,10 +395,10 @@ body {
 }
 #nav li a {
     display: block;
-    color: #ccc;
+    color: #d8d3d3;
     font-size: 1.2em;
     line-height: 1.28571em;
-    font-weight: bold;
+    font-weight: 400;
     outline: none;
 }
 #nav li a:focus, #nav li a:hover {
@@ -415,7 +415,7 @@ body {
   color: #fff;
   background: #333333;*/
 
-  background-color: #6A963B;
+  background-color: #79af3f;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -568,6 +568,7 @@ footer[role="contentinfo"] {
   }
   #nav li a {
     padding: 0.4em 1.14286em;
+    color: #fff; 
 }
 
 
@@ -617,8 +618,8 @@ footer[role="contentinfo"] {
     /* line-height: 1.2em; */
     text-align: center;
     white-space: normal;
-    max-width: 172px;
-   margin-left: calc(34% + 0em);
+    max-width: 190px;
+    margin-left: calc(26% + 0em);
 }
 
 
