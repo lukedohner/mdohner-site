@@ -1,7 +1,8 @@
 /*sets size and backgd color for div tags*/
 #container {
 	width: 90%;
-	background-color: #CBCFB3;
+	background-color:#B5BFB4;
+
 	margin: 0 auto;
 	padding: 0;
 }
@@ -77,7 +78,7 @@ padding: .5em;
 
 body {
 	font-family: 'Work Sans', Verdana, sans-serif;
-	background-color: #CBCFB3;
+	background-color: #B5BFB4;
 	color: #000000;
 	margin: 0;
 	padding: 0;
@@ -215,7 +216,6 @@ a img {border-width: 0;}
 }
 
 .sidebar a:hover {
-	background-color: #99E071;
 	color: #EBEBEB;
 	/*border-right: 3px #999999 solid;
 	border-bottom: 3px #999999 solid;
