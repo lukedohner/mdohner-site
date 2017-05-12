@@ -1,7 +1,7 @@
 /*sets size and backgd color for div tags*/
 #container {
 	width: 90%;
-	background-color:#B5BFB4;
+	background-color:#d4d8d4;
 
 	margin: 0 auto;
 	padding: 0;
@@ -78,7 +78,7 @@ padding: .5em;
 
 body {
 	font-family: 'Work Sans', Verdana, sans-serif;
-	background-color: #B5BFB4;
+	background-color: #d4d8d4;
 	color: #000000;
 	margin: 0;
 	padding: 0;
