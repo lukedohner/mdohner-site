@@ -539,8 +539,8 @@ footer[role="contentinfo"] {
   }
   #nav .close-btn {
     position: absolute;
-    top: -3.6em;
-    left: .7em;
+    top: -3.3em;
+    left: 21.6px;
     background-color: none !important;
   }
   #nav .block {

@@ -1,7 +1,7 @@
 /*sets size and backgd color for div tags*/
 #container {
 	width: 90%;
-	background-color:#d4d8d4;
+	background-color:#dbe2db;
 
 	margin: 0 auto;
 	padding: 0;
@@ -78,7 +78,7 @@ padding: .5em;
 
 body {
 	font-family: 'Work Sans', Verdana, sans-serif;
-	background-color: #d4d8d4;
+	background-color: #dbe2db;
 	color: #000000;
 	margin: 0;
 	padding: 0;
@@ -245,7 +245,8 @@ text-align: left;
 letter-spacing: 1px;
 }
 .nopadding {
-	padding: 0px 0px 33px 0px !important; 
+	/*padding: 0px 0px 33px 0px !important;*/
+	padding: 0px 0px 7px 0px !important; 
 }
 
 /* For email form under development */
