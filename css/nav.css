@@ -344,8 +344,8 @@ body {
 
 #outer-wrap {
   position: relative;
-  overflow: hidden;
-  width: 100%;
+  /*overflow: hidden;
+*/  width: 100%;
 }
 
 #inner-wrap {
@@ -355,7 +355,7 @@ body {
 
 #nav {
   z-index: 200;
-  position: fixed;
+  /*position: fixed;*/
   overflow: hidden;
   /*width: 100%;*/
   color: #fff;
@@ -378,6 +378,8 @@ body {
   position: relative;
   padding: 0.75em 1.25em;
   background: #349834;
+  /*height:80vh;*/
+  min-height: 650px;
 }
 #nav ul {
   *zoom: 1;
@@ -398,7 +400,7 @@ body {
     color: #d8d3d3;
     font-size: 1.2em;
     line-height: 1.28571em;
-    font-weight: 800;
+    /*font-weight: 800;*/
     outline: none;
 }
 #nav li a:focus, #nav li a:hover {
@@ -406,7 +408,7 @@ body {
   background: rgba(255, 255, 255, 0.1);
 }
 #nav li.is-active a {
-  color: #fff;
+  color: #266D26;
 }
 
 #top {
@@ -561,20 +563,21 @@ footer[role="contentinfo"] {
     position: absolute;
     top: 50%;
     right: 1.1em;
-    margin-top: -0.625em;
+    margin-top: -0.5em;
     border-top: 0.625em transparent solid;
     border-bottom: 0.625em transparent solid;
-    border-right: 0.625em white solid;
+    border-right: 0.625em #266D26 solid;
   }
   #nav li a {
-    padding: 0.4em 1.14286em;
-    color: #fff; 
+    /*padding: 0.4em 1.14286em;*/
+    color: #349834; 
 }
 
 
   .js-ready #nav {
     height: 100%;
     width: 70%;
+    height: 121%;
     /*background: #333333;*/
     /*-webkit-box-shadow: inset -1.5em 0 1.5em -0.75em rgba(0, 0, 0, 0.25);
     -moz-box-shadow: inset -1.5em 0 1.5em -0.75em rgba(0, 0, 0, 0.25);

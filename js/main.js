@@ -5,6 +5,19 @@
  */
 (function(window, document, undefined)
 {
+var href = document.location.href;
+var lastPathSegment = href.substr(href.lastIndexOf('/') + 1);
+console.log(lastPathSegment);
+
+//Checks to see if we are on index.html
+if(lastPathSegment=="index.html"){
+var mainContentHeight = document.getElementById('mainContent').clientHeight - 85;
+console.log("lastPathSegment==index.html");
+}else{
+    var mainContentHeight = document.getElementById('mainContent').clientHeight - 100;
+}
+document.getElementById('navblock').style.height = mainContentHeight + "px";
+console.log(mainContentHeight);
 
     // helper functions
 
